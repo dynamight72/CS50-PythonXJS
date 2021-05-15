@@ -1,7 +1,4 @@
 TO git commit do:
 
 1.ctrl+shift+p
-2. git plus add
-3. git commit at right side
-4 ctrl+shift+p
-5. git plus push
+2. git plus add all commit and push
