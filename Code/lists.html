@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lists- Title
+        </title>
+        <style>
+            html{
+                font-size: 30px;
+            }
+            ul>li {
+                color: cornflowerblue;
+            }
+            ol>li {
+                color: red;
+            }
+            li[id="bruh"]{
+                color: burlywood;
+            }
+            li[class="meme"]{
+                color: skyblue;
+            }
+            @media (max-width:600px) {
+                html{
+                    background-color: springgreen;
+                }
+            }
+            @media (min-width:600px) {
+                html{
+                    background-color: slateblue;
+                }
+            }
+
+        </style>
+    </head>
+    <body>
+            This is an ordered list:
+            <ol>
+                <li>First Term</li>
+                <ul>
+                    <li>First Term</li>
+                    <li>Second Term(Try Shrinking webpage</li>
+                </ul>
+                <li>Second Term</li>
+            </ol>
+            This is an unordered list:
+            <ul>
+                <li id="bruh">First Term(id = bruh)</li>
+                <li class="meme">Second Term(class = meme)</li>
+            </ul>
+    </body>
+</html>
